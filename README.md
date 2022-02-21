@@ -1,5 +1,5 @@
 # ansible
-![Ansible Lint](https://github.com/sladeedmonds/k3s-ansible/workflows/Ansible%20Lint/badge.svg)
+![Ansible Lint](https://github.com/sladeedmonds/k3s-ansible/workflows/Lint/badge.svg)
 
 # Build a Kubernetes cluster using k3s via Ansible
 
