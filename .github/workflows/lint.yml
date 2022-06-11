@@ -28,4 +28,4 @@ jobs:
         run: yamllint .
 
       - name: Run ansible-lint.
-        uses: ansible-community/ansible-lint-action@master
+        uses: ansible-community/ansible-lint-action@main
