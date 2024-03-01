@@ -1,5 +1,5 @@
 ---
-name: Lint
+name: ansible-lint
 'on':
   pull_request:
   push:
@@ -28,4 +28,4 @@ jobs:
         run: yamllint .
 
       - name: Run ansible-lint.
-        uses: ansible-lint/ansible-lint@main
+        uses: ansible/ansible-lint@main
