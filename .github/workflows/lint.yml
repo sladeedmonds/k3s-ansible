@@ -17,7 +17,7 @@ jobs:
         run: pip3 install yamllint
 
       - name: install selinux
-        run: ansible-galaxy collection install ansible.posix.selinux
+        run: ansible-galaxy collection install ansible.posix
 
       - name: Run yamllint.
         run: yamllint .
