@@ -7,14 +7,11 @@ name: ansible-lint
       - master
 
 jobs:
-
-  test:
+  build:
     name: Lint
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out the codebase.
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Install dependencies
         run: pip3 install yamllint
